@@ -1,0 +1,7 @@
+# Ignorar dados do banco (persistência do Docker)
+mongo_data/
+
+# Arquivos de sistema e ambiente virtual
+.env
+.venv/
+.DS_Store
