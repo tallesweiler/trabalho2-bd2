@@ -118,7 +118,3 @@ docker exec -it mongo-test mongosh -u prof_oak -p 456 --authenticationDatabase p
 ## ⚙️ Ingestão Automática de Dados
 
 O processo de carga inicial é realizado através do script `03-insert-data.js`. Ele garante que, assim que o serviço estiver disponível, a base `pokeAPI` já contenha a coleção `pokemons` populada, simulando o provisionamento automático de sistemas em produção.
-
-## Prints de algumas partes do funcionamento
-
-![Teste de Inserçao (com permissao)](./screenshots/teste3.png)
